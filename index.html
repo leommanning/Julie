@@ -907,6 +907,23 @@
       color: var(--red);
     }
 
+    .footer-credit {
+      margin: 0;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .footer-credit a {
+      font-weight: 800;
+      color: var(--ink);
+      text-decoration: none;
+      transition: color 0.18s ease;
+    }
+
+    .footer-credit a:hover {
+      color: var(--red);
+    }
+
     .reveal {
       opacity: 0;
       transform: translateY(18px);
@@ -1031,6 +1048,11 @@
         align-items: center;
         flex-direction: column;
         text-align: center;
+      }
+
+      .footer-credit {
+        text-align: center;
+        margin-top: 8px;
       }
     }
   </style>
@@ -1279,6 +1301,7 @@
         <a href="#lessons">Lessons</a>
         <a href="#contact">Contact</a>
       </div>
+      <p class="footer-credit">Made by <a href="https://manningsmedia.co.uk" target="_blank" rel="noopener">Mannings Media</a></p>
     </div>
   </footer>
 
